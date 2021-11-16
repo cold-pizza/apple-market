@@ -1,0 +1,74 @@
+#sellings {
+  width: 100%;
+  height: 76%;
+  overflow: scroll;
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    div {
+      width: 30px;
+    }
+  }
+  .selling-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    .sell-info {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      img {
+        width: 100px;
+        height: 100px;
+        background: #eee;
+        border-radius: 8px;
+        margin-right: 12px;
+      }
+      .meta-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 90%;
+        span {
+          margin-bottom: 10px;
+        }
+        .title {
+          font-size: 22px;
+        }
+        .gps {
+          font-size: 16px;
+          color: rgba(0, 0, 0, 0.5);
+        }
+        .price {
+          font-size: 26px;
+        }
+      }
+    }
+
+    .btns {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: center;
+
+      button {
+        cursor: pointer;
+        width: 50%;
+        height: 60px;
+        background-color: transparent;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        font-size: 16px;
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+i {
+  cursor: pointer;
+}
+$logo-red-color: #ff6969;
+$light-gray: rgba(0, 0, 0, 0.3);
+
+#main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "Jua", sans-serif;
+  .main-box {
+    position: relative;
+    width: 600px;
+    height: 1000px;
+    box-shadow: 0 2px 3px rgba(50, 50, 80, 0.1), 0 3px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    #nav-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 20px 0;
+      font-size: 22px;
+      margin-bottom: 10px;
+      .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        span {
+          margin-right: 5px;
+        }
+      }
+      .menus {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        i {
+          margin-left: 8px;
+        }
+      }
+    }
+
+    #metadata-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      font-size: 26px;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      .icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        i {
+          margin-right: 16px;
+        }
+      }
+    }
+
+    #action-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      padding: 20px 30px 20px 30px;
+      background-color: #f5f5f5;
+      .action-icon {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        i {
+          font-size: 28px;
+          margin-bottom: 10px;
+        }
+        span {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

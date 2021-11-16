@@ -1,0 +1,89 @@
+#modal-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  .modal-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    z-index: 3;
+    top: 80px;
+
+    width: 100%;
+    max-width: 440px;
+    height: 650px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(50, 50, 80, 0.5), 0 2px 4px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .fa-arrow-left {
+      font-size: 24px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    .question {
+      font-size: 22px;
+      margin: 14px 0 20px 0;
+      width: 89%;
+    }
+    .chats {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      .person {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin: 8px 0;
+        span {
+          font-size: 20px;
+          margin-right: 10px;
+        }
+        p {
+          padding: 6px;
+          background-color: #eee;
+          border-radius: 0 6px 6px 6px;
+        }
+      }
+    }
+
+    .input {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+      background-color: #eee;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      input {
+        width: 400px;
+        height: 30px;
+        font-size: 18px;
+        padding: 6px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+      }
+      i {
+        position: absolute;
+        right: 30px;
+      }
+    }
+  }
+}
