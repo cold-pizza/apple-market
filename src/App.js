@@ -66,7 +66,7 @@ function App() {
     {
       id: 0,
       nick: "식은피자",
-      img: "https://cold-pizza.github.io/apple-market/images/13pro.png",
+      img: "https://cold-pizza.github.io/apple-market/public/images/13pro.png",
       name: "아이폰 13pro",
       price: "1700000",
       gps: "제주시 연동",
@@ -78,7 +78,8 @@ function App() {
     {
       id: 1,
       nick: "바른사람",
-      img: "https://cold-pizza.github.io/apple-market/images/backpack.jpg",
+      img:
+        "https://cold-pizza.github.io/apple-market/public/images/backpack.jpg",
       name: "f/ce travel 백팩",
       price: "290000",
       gps: "경남 김해시 내외동",
@@ -90,7 +91,7 @@ function App() {
     {
       id: 2,
       nick: "챱챱",
-      img: "https://cold-pizza.github.io/apple-market/images/ipad.jpg",
+      img: "https://cold-pizza.github.io/apple-market/public/images/ipad.jpg",
       name: "아이패드 5세대",
       price: "1250000",
       gps: "서울 강남구 논현동",
@@ -102,7 +103,8 @@ function App() {
     {
       id: 3,
       nick: "사과좋아",
-      img: "https://cold-pizza.github.io/apple-market/images/macbook.jpg",
+      img:
+        "https://cold-pizza.github.io/apple-market/public/images/macbook.jpg",
       name: "맥북 에어",
       price: "2000000",
       gps: "서울시 노원구",
@@ -139,10 +141,10 @@ function App() {
     },
   ]);
   const images = [
-    "https://cold-pizza.github.io/apple-market/images/iu.png",
-    "https://cold-pizza.github.io/apple-market/images/yuna.jpg",
-    "https://cold-pizza.github.io/apple-market/images/jobs.jpg",
-    "https://cold-pizza.github.io/apple-market/images/hi.jpg",
+    "https://cold-pizza.github.io/apple-market/public/images/iu.png",
+    "https://cold-pizza.github.io/apple-market/public/images/yuna.jpg",
+    "https://cold-pizza.github.io/apple-market/public/images/jobs.jpg",
+    "https://cold-pizza.github.io/apple-market/public/images/hi.jpg",
   ];
 
   const [addItem, setAddItem] = useState({
