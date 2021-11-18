@@ -107,7 +107,7 @@ function App() {
       price: "2000000",
       gps: "서울시 노원구",
       day: "2021-10-20",
-      comments: "사랑해요",
+      comments: "어디서 거래하나요?",
       like: 13,
       active: false,
     },
